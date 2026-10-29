@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './appshowcase.css';
-import iPhoneMockupImg from '../../assets/iphone 12 pro.png';
+import iPhoneMockupImg from '../../assets/iPhone 12 Pro.png';
 import googlePlayBadge from '../../assets/googlestore.svg';
 import appStoreBadge from '../../assets/applestore.svg';
 
