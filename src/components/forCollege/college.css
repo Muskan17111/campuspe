@@ -1,0 +1,158 @@
+.colleges-section {
+  padding: 5rem 1.5rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f0f7ff 100%);
+}
+
+.colleges-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: 3.5rem;
+  align-items: flex-start;
+}
+
+.colleges-left {
+  text-align: left;
+  position: sticky;
+  top: 100px;
+}
+
+.colleges-pill-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  color: #0284c7;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin-bottom: 1.25rem;
+}
+
+.colleges-dot {
+  color: #0084ff;
+  font-size: 0.65rem;
+}
+
+.colleges-heading {
+  font-size: clamp(2.2rem, 3.8vw, 3rem);
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.18;
+  letter-spacing: -0.8px;
+  margin-bottom: 1.25rem;
+}
+
+.colleges-heading-blue {
+  color: #0084ff;
+}
+
+.colleges-description {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.65;
+  margin-bottom: 2rem;
+}
+
+.colleges-cta-btn {
+  background: #0084ff;
+  color: #ffffff;
+  border: none;
+  padding: 0.85rem 1.85rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 132, 255, 0.25);
+  transition: background 0.2s, transform 0.15s;
+}
+
+.colleges-cta-btn:hover {
+  background: #006bce;
+  transform: translateY(-2px);
+}
+
+/* RIGHT COLUMN: Cards Stack */
+.colleges-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.college-feature-card {
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 1.5rem 1.75rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.03);
+  text-align: left;
+}
+
+.college-feature-card:hover,
+.college-feature-card.active-college-card {
+  border-color: #38bdf8;
+  box-shadow: 0 12px 30px rgba(2, 132, 199, 0.1);
+  transform: translateY(-3px);
+}
+
+.college-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.college-card-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #64748b;
+  letter-spacing: 0.5px;
+}
+
+.college-badges-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.college-badge-pill {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  color: #0284c7;
+}
+
+.college-feature-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 0.4rem;
+}
+
+.college-feature-card p {
+  font-size: 0.85rem;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .colleges-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .colleges-left {
+    position: static;
+  }
+}
