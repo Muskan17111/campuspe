@@ -5,7 +5,7 @@ import OpportunitySection from './components/opportunity';
 import ResumeUpload from './components/resumeSection/resume';
 import ForCollege from './components/forCollege/forCollege';
 import ForEmployer from './components/forEmployee/forEmployee';
-import AppShowcase from './components/appshowcse/appshowcase';
+import AppShowcase from './components/appshowcase/appshowcase';
 import FooterSection from './components/footer/footer';
 import './App.css';
 
