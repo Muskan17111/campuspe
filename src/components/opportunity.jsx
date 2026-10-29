@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Opportunity.css';
+import './opportunity.css';
 
 export default function OpportunitySection({ onOpenModal }) {
   const [activeFilter, setActiveFilter] = useState('All');
