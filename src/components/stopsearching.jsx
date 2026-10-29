@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './opportunitySection.css';
+import './opportunity.css';
 
 export default function StopSearching({ onOpenModal }) {
   const [activeStep, setActiveStep] = useState(1);
